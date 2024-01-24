@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #33186b;
+  text-transform: uppercase;
+  font-family: "Signika", sans-serif;
+}
+
+.container {
+  background-color: #f2afef;
+  width: 100%;
+  max-width: 450px;
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #33186b;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.action {
+  cursor: pointer;
+}
+
+.button,
+.action,
+.result {
+  height: 40px;
+  margin: 20px;
+  background-color: #7360df;
+  color: #33186b;
+  padding: 5px;
+  border: 2px solid #33186b;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.action-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #33186b;
+}
+
+.action {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  font-size: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  padding: 0;
+  cursor: pointer;
+}
+
+.result {
+  height: 40px;
+  border-radius: 15px;
+  margin: 10px;
+  width: 200px;
+}
+
+.result-and-clear {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #33186b;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+    font-size: 24px;
+    width: 100%;
+  }
+}
